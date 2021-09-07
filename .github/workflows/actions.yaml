@@ -12,4 +12,4 @@ jobs:
       with:
         config: ./markdownlint-config.json
         ignore: ./node_modules
-        args: './*.md'
+        args: './**/*.md'
