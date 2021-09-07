@@ -1,0 +1,25 @@
+{
+  "name": "co-development-note",
+  "version": "1.0.0",
+  "description": "C3でチーム開発を多く行ってきて溜まった知見をここに記録し、今後のチーム開発に活かすためのレポジトリ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "markdownlint --ignore ./node_modules --config markdownlint-config.json *.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyutech-C3/co-development-note.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kyutech-C3/co-development-note/issues"
+  },
+  "homepage": "https://github.com/Kyutech-C3/co-development-note#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "markdownlint": "^0.24.0",
+    "markdownlint-cli": "^0.28.1"
+  }
+}
