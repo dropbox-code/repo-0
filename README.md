@@ -1,5 +1,5 @@
 ---
 title: Javascript
-Date: 01/23/2023
+Date: 2023-01-23
 ---
 
