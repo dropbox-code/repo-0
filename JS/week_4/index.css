@@ -1,0 +1,88 @@
+body {
+    background-image: url('profile.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px;
+    width: 800px;
+}
+
+.header {
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+    background-color: burlywood;
+    border-bottom: 1px solid white;
+    padding: 20px 40px;
+}
+
+.form2 {
+    margin-left: 30px;
+}
+.form-field {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-field1 {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-field input {
+    border: 2px solid black;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.form-field1 input {
+    border: 2px solid black;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.form-field.success input {
+    border-color: greenyellow;
+}
+
+.form-field1.success input {
+    border-color: greenyellow;
+}
+
+.form-field.error input {
+    border-color: red;
+}
+
+.form-field1.error input {
+    border-color: red;
+}
+
+.form-field small {
+    visibility: visible;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form-field1 small {
+    margin-top: 3px;
+    visibility: visible;
+    position: absolute;
+}
