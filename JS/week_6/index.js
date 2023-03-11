@@ -1,11 +1,11 @@
 //week4
 const usernameEl = document.querySelector('#username');
-//week5
+//week6
 const emailEl = document.querySelector('#email');
 const passwordEl = document.querySelector('#password');
 const confirmPasswordEl = document.querySelector('#confirm-password');
 
-//week6
+//week4
 const checkUsername = () => {
 
     let valid = false;
@@ -44,8 +44,6 @@ const checkEmail = () => {
 //week6
 const checkPassword = () => {
     let valid = false;
-
-
     const password = passwordEl.value.trim();
 
     if (!isRequired(password)) {
