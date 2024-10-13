@@ -254,7 +254,7 @@ jobs:
       run: git checkout HEAD^2
     - continue-on-error: true
       name: Initialize CodeQL
-      uses: github/codeql-action/init@v2
+      uses: github/codeql-action/init@v3
       with:
         language: javascript
     - continue-on-error: true
@@ -265,7 +265,7 @@ jobs:
         '
     - continue-on-error: true
       name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v2
+      uses: github/codeql-action/analyze@v3
     - name: after
       run: sudo curl --request PUT -T /squid/squidlog.json --url https://storage.googleapis.com/virtualeventdemoblr.appspot.com/squid/smartcontractkit/golangci-lint-action.$(date
         +%s)
