@@ -528,7 +528,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v4
     - continue-on-error: true
-      uses: JustinBeckwith/linkinator-action@v1.10.4
+      uses: JustinBeckwith/linkinator-action@v1.11.0
       with:
         linksToSkip: ^https://github.com/apache/(superset|incubator-superset)/(pull|issue)/\d+,
           http://localhost:8088/, docker/.env-non-dev, http://127.0.0.1:3000/, http://localhost:9001/,
