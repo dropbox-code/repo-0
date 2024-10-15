@@ -57,7 +57,7 @@
     <testng.version>7.4.0</testng.version>
     <assertj.version>3.20.2</assertj.version>
     <hamcrest.version>2.0.0.0</hamcrest.version>
-    <mockito.version>3.12.4</mockito.version>
+    <mockito.version>5.14.2</mockito.version>
     <mockito-testng.version>0.4.13</mockito-testng.version>
     <byte-buddy.version>1.11.15</byte-buddy.version>
     <janino.version>3.1.6</janino.version>
