@@ -225,7 +225,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.16.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.18.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.21.5 // indirect
-	github.com/aws/smithy-go v1.19.0 // indirect
+	github.com/aws/smithy-go v1.19.0
 	github.com/beevik/etree v1.1.0 // indirect
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
 	github.com/bgentry/speakeasy v0.1.0 // indirect
@@ -355,7 +355,7 @@ require (
 	cloud.google.com/go/iam v0.13.0
 	cloud.google.com/go/monitoring v1.13.0
 	github.com/DataDog/datadog-api-client-go/v2 v2.11.0
-	github.com/Myra-Security-GmbH/myrasec-go/v2 v2.28.0
+	github.com/Myra-Security-GmbH/myrasec-go/v2 v2.33.0
 	github.com/manicminer/hamilton v0.44.0
 	github.com/opalsecurity/opal-go v1.0.19
 	gopkg.in/ns1/ns1-go.v2 v2.6.5
