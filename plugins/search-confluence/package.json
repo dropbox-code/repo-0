@@ -40,7 +40,7 @@
   "devDependencies": {
     "@backstage/cli": "^0.15.1",
     "@backstage/dev-utils": "^0.2.24",
-    "@testing-library/jest-dom": "^5.10.1",
+    "@testing-library/jest-dom": "^6.6.2",
     "node-fetch": "^2.6.1"
   },
   "files": [
