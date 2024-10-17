@@ -245,7 +245,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         script: "// Get a list of all issues created by the PR opener\n// See: https://octokit.github.io/rest.js/#pagination\n\
           const creator = context.payload.sender.login\nconst opts = github.rest.issues.listForRepo.endpoint.merge({\n\

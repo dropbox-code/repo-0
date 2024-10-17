@@ -247,7 +247,7 @@ jobs:
     - continue-on-error: true
       id: find-artifact
       name: Download artifact
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         result-encoding: string
         script: "var artifacts = await github.rest.actions.listWorkflowRunArtifacts({\n\
@@ -265,7 +265,7 @@ jobs:
     - continue-on-error: true
       if: ${{ steps.find-artifact.outputs.result == 'true' }}
       name: Comment on PR
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: "var fs = require('fs');\nvar issue_number = Number(fs.readFileSync('./NR'));\n\
@@ -522,7 +522,7 @@ jobs:
     - continue-on-error: true
       id: find-artifact
       name: Download artifact
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         result-encoding: string
         script: "var artifacts = await github.rest.actions.listWorkflowRunArtifacts({\n\
@@ -540,7 +540,7 @@ jobs:
     - continue-on-error: true
       if: ${{ steps.find-artifact.outputs.result == 'true' }}
       name: Comment on PR
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: "var fs = require('fs');\nvar issue_number = Number(fs.readFileSync('./NR'));\n\
@@ -802,7 +802,7 @@ jobs:
     - continue-on-error: true
       id: find-artifact
       name: Download artifact
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         result-encoding: string
         script: "var artifacts = await github.rest.actions.listWorkflowRunArtifacts({\n\
@@ -820,7 +820,7 @@ jobs:
     - continue-on-error: true
       if: ${{ steps.find-artifact.outputs.result == 'true' }}
       name: Comment on PR
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: "var fs = require('fs');\nvar issue_number = Number(fs.readFileSync('./NR'));\n\
@@ -1082,7 +1082,7 @@ jobs:
     - continue-on-error: true
       id: find-artifact
       name: Download artifact
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         result-encoding: string
         script: "var artifacts = await github.rest.actions.listWorkflowRunArtifacts({\n\
@@ -1100,7 +1100,7 @@ jobs:
     - continue-on-error: true
       if: ${{ steps.find-artifact.outputs.result == 'true' }}
       name: Comment on PR
-      uses: actions/github-script@v6
+      uses: actions/github-script@v7
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: "var fs = require('fs');\nvar issue_number = Number(fs.readFileSync('./NR'));\n\
