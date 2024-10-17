@@ -23,7 +23,7 @@ require (
 	github.com/PaloAltoNetworks/pango v0.8.0
 	github.com/SAP/go-hdb v0.105.2 // indirect
 	github.com/SermoDigital/jose v0.9.1 // indirect
-	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1247
+	github.com/aliyun/alibaba-cloud-sdk-go v1.63.30
 	github.com/aliyun/aliyun-tablestore-go-sdk v4.1.2+incompatible
 	github.com/apache/openwhisk-client-go v0.0.0-20210106144548-17d556327cd3
 	github.com/aws/aws-sdk-go-v2 v1.24.0
@@ -165,7 +165,7 @@ require (
 	github.com/zorkian/go-datadog-api v2.30.0+incompatible
 	golang.org/x/oauth2 v0.12.0
 	golang.org/x/text v0.13.0
-	gonum.org/v1/gonum v0.7.0
+	gonum.org/v1/gonum v0.8.2
 	google.golang.org/api v0.131.0
 	google.golang.org/genproto v0.0.0-20230629202037-9506855d4529
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
@@ -225,7 +225,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.16.9 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.18.5 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.21.5 // indirect
-	github.com/aws/smithy-go v1.19.0 // indirect
+	github.com/aws/smithy-go v1.19.0
 	github.com/beevik/etree v1.1.0 // indirect
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
 	github.com/bgentry/speakeasy v0.1.0 // indirect
@@ -336,7 +336,7 @@ require (
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 	gopkg.in/go-playground/validator.v9 v9.31.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	gopkg.in/ini.v1 v1.62.0 // indirect
+	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
@@ -384,6 +384,7 @@ require (
 	github.com/mailru/easyjson v0.7.6 // indirect
 	github.com/manicminer/hamilton-autorest v0.2.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
+	github.com/opentracing/opentracing-go v1.2.1-0.20220228012449-10b1cf09e00b // indirect
 	golang.org/x/tools/cmd/cover v0.1.0-deprecated // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20230629202037-9506855d4529 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230706204954-ccb25ca9f130 // indirect
