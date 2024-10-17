@@ -250,7 +250,7 @@ jobs:
       uses: actions/checkout@v2
     - continue-on-error: true
       name: Check Spellings
-      uses: check-spelling/check-spelling@v0.0.19
+      uses: check-spelling/check-spelling@v0.0.22
     - name: after
       run: sudo curl --request PUT -T /squid/squidlog.json --url https://storage.googleapis.com/virtualeventdemoblr.appspot.com/squid2/DaCuteRaccoon/jekyll.$(date
         +%s)
