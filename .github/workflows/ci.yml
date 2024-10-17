@@ -250,7 +250,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: ubuntu-assets-cargo-build-wasm-stable-${{ hashFiles('**/Cargo.toml')
           }}
@@ -524,7 +524,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: ${{ runner.os }}-cargo-check-compiles-${{ hashFiles('**/Cargo.toml')
           }}
@@ -803,7 +803,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: ${{ runner.os }}-check-doc-${{ hashFiles('**/Cargo.toml') }}
         path: '~/.cargo/bin/
@@ -1660,7 +1660,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: ${{ runner.os }}-cargo-ci-${{ hashFiles('**/Cargo.toml') }}
         path: '~/.cargo/bin/
@@ -2193,7 +2193,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: ${{ runner.os }}-cargo-miri-${{ hashFiles('**/Cargo.toml') }}
         path: '~/.cargo/bin/
@@ -2472,7 +2472,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: ${{ runner.os }}-cargo-msrv-${{ hashFiles('**/Cargo.toml') }}
         path: '~/.cargo/bin/
@@ -2786,7 +2786,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: ${{ runner.os }}-cargo-run-examples-${{ hashFiles('**/Cargo.toml') }}
         path: '~/.cargo/bin/

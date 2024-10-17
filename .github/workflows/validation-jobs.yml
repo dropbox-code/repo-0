@@ -251,7 +251,7 @@ jobs:
     - continue-on-error: true
       uses: dtolnay/rust-toolchain@stable
     - continue-on-error: true
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: ${{ runner.os }}-cargo-build-android-${{ hashFiles('**/Cargo.toml') }}
         path: '~/.cargo/bin/
@@ -1045,7 +1045,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@v3
     - continue-on-error: true
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: ${{ runner.os }}-cargo-check-unused-dependencies-${{ hashFiles('**/Cargo.toml')
           }}
@@ -1327,7 +1327,7 @@ jobs:
       with:
         target: wasm32-unknown-unknown
     - continue-on-error: true
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key: ${{ runner.os }}-wasm-run-examples-${{ hashFiles('**/Cargo.toml') }}
         path: '~/.cargo/bin/
