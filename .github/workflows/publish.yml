@@ -256,7 +256,7 @@ jobs:
     - continue-on-error: true
       id: frontend-changed-files
       name: Detect changed files in search-confluence
-      uses: tj-actions/changed-files@v17.2
+      uses: tj-actions/changed-files@v26.1
       with:
         files: 'plugins/search-confluence/package.json
 
@@ -265,7 +265,7 @@ jobs:
     - continue-on-error: true
       id: backend-changed-files
       name: Detect changed files in search-confluence-backend
-      uses: tj-actions/changed-files@v17.2
+      uses: tj-actions/changed-files@v26.1
       with:
         files: 'plugins/search-confluence-backend/package.json
 
