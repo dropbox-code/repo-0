@@ -43,6 +43,6 @@ wasm-bindgen-futures = "0.4"
 js-sys = "0.3"
 
 [dev-dependencies]
-futures-lite = "1.4.0"
+futures-lite = "2.3.0"
 tempfile = "3.2.0"
 bevy_core = { path = "../bevy_core", version = "0.11.0-dev" }
